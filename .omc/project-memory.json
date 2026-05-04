@@ -173,32 +173,32 @@
   "hotPaths": [
     {
       "path": "",
-      "accessCount": 2,
-      "lastAccessed": 1777909686858,
+      "accessCount": 5,
+      "lastAccessed": 1777925049352,
       "type": "directory"
     },
     {
-      "path": "README.md",
-      "accessCount": 1,
-      "lastAccessed": 1777909677206,
+      "path": "requirements.txt",
+      "accessCount": 2,
+      "lastAccessed": 1777912785415,
       "type": "file"
     },
     {
-      "path": "requirements.txt",
-      "accessCount": 1,
-      "lastAccessed": 1777909686333,
+      "path": "model\\kronos.py",
+      "accessCount": 2,
+      "lastAccessed": 1777912792933,
+      "type": "file"
+    },
+    {
+      "path": "README.md",
+      "accessCount": 2,
+      "lastAccessed": 1777912881120,
       "type": "file"
     },
     {
       "path": "model\\__init__.py",
       "accessCount": 1,
       "lastAccessed": 1777909694564,
-      "type": "file"
-    },
-    {
-      "path": "model\\kronos.py",
-      "accessCount": 1,
-      "lastAccessed": 1777909694996,
       "type": "file"
     },
     {
@@ -223,6 +223,36 @@
       "path": "tests\\test_kronos_regression.py",
       "accessCount": 1,
       "lastAccessed": 1777912174545,
+      "type": "file"
+    },
+    {
+      "path": "examples\\prediction_example.py",
+      "accessCount": 1,
+      "lastAccessed": 1777912785740,
+      "type": "file"
+    },
+    {
+      "path": "examples\\run_mini.py",
+      "accessCount": 1,
+      "lastAccessed": 1777913144700,
+      "type": "file"
+    },
+    {
+      "path": "examples\\mini_prediction.png",
+      "accessCount": 1,
+      "lastAccessed": 1777925053120,
+      "type": "file"
+    },
+    {
+      "path": "examples\\get_akshare_date_2024-2025_x.py",
+      "accessCount": 1,
+      "lastAccessed": 1777925108177,
+      "type": "file"
+    },
+    {
+      "path": "examples\\get_data.py",
+      "accessCount": 1,
+      "lastAccessed": 1777925978732,
       "type": "file"
     }
   ],
