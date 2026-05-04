@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"Get-ChildItem -Force | Select-Object Name, @{Name=\\\"Type\\\";Expression={if($_.PSIsContainer){\\\"DIR\\\"}else{\\\"FILE\\\"}}} | Format-Table -AutoSize\",\"description\":\"List root directory contents\"}",
+  "error": "Exit code 2\n/usr/bin/bash: eval: line 1: syntax error near unexpected token `('\n/usr/bin/bash: eval: line 1: `Get-ChildItem -Force | Select-Object Name, @{Name=\"Type\";Expression={if($_.PSIsContainer){\"DIR\"}else{\"FILE\"}}} | Format-Table -AutoSize'",
+  "timestamp": "2026-05-04T15:47:53.808Z",
+  "retry_count": 1
+}

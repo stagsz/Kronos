@@ -1,0 +1,230 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1777909529224,
+  "projectRoot": "c:\\Users\\staff\\anthropicFun\\Kronos",
+  "techStack": {
+    "languages": [
+      {
+        "name": "Python",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "requirements.txt"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "pip",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "examples",
+      "tests"
+    ],
+    "gitBranches": {
+      "defaultBranch": "master",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "examples": {
+      "path": "examples",
+      "purpose": "Example code",
+      "fileCount": 10,
+      "lastAccessed": 1777909529170,
+      "keyFiles": [
+        "get_akshare_date_2024-2025_x.py",
+        "get_date_new.py",
+        "prediction_akshare_2024-2025.py",
+        "prediction_batch_example.py",
+        "prediction_cn_markets_day.py"
+      ]
+    },
+    "figures": {
+      "path": "figures",
+      "purpose": null,
+      "fileCount": 4,
+      "lastAccessed": 1777909529173,
+      "keyFiles": [
+        "backtest_result_example.png",
+        "logo.png",
+        "overview.png",
+        "prediction_example.png"
+      ]
+    },
+    "finetune": {
+      "path": "finetune",
+      "purpose": null,
+      "fileCount": 6,
+      "lastAccessed": 1777909529173,
+      "keyFiles": [
+        "config.py",
+        "dataset.py",
+        "qlib_data_preprocess.py",
+        "qlib_test.py",
+        "train_predictor.py"
+      ]
+    },
+    "finetune_csv": {
+      "path": "finetune_csv",
+      "purpose": null,
+      "fileCount": 6,
+      "lastAccessed": 1777909529174,
+      "keyFiles": [
+        "config_loader.py",
+        "finetune_base_model.py",
+        "finetune_tokenizer.py",
+        "README.md",
+        "README_CN.md"
+      ]
+    },
+    "model": {
+      "path": "model",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1777909529175,
+      "keyFiles": [
+        "kronos.py",
+        "module.py",
+        "__init__.py"
+      ]
+    },
+    "tests": {
+      "path": "tests",
+      "purpose": "Test files",
+      "fileCount": 1,
+      "lastAccessed": 1777909529176,
+      "keyFiles": [
+        "test_kronos_regression.py"
+      ]
+    },
+    "webui": {
+      "path": "webui",
+      "purpose": null,
+      "fileCount": 5,
+      "lastAccessed": 1777909529176,
+      "keyFiles": [
+        "app.py",
+        "README.md",
+        "requirements.txt",
+        "run.py",
+        "start.sh"
+      ]
+    },
+    "finetune\\utils": {
+      "path": "finetune\\utils",
+      "purpose": "Utility functions",
+      "fileCount": 2,
+      "lastAccessed": 1777909529177,
+      "keyFiles": [
+        "training_utils.py",
+        "__init__.py"
+      ]
+    },
+    "finetune_csv\\data": {
+      "path": "finetune_csv\\data",
+      "purpose": "Data files",
+      "fileCount": 1,
+      "lastAccessed": 1777909529177,
+      "keyFiles": [
+        "HK_ali_09988_kline_5min_all.csv"
+      ]
+    },
+    "finetune_csv\\examples": {
+      "path": "finetune_csv\\examples",
+      "purpose": "Example code",
+      "fileCount": 5,
+      "lastAccessed": 1777909529178,
+      "keyFiles": [
+        "HK_ali_09988_kline_5min_all_historical_20250919_073929.png",
+        "HK_ali_09988_kline_5min_all_historical_20250919_073944.png",
+        "HK_ali_09988_kline_5min_all_historical_20250919_074012.png"
+      ]
+    },
+    "tests\\data": {
+      "path": "tests\\data",
+      "purpose": "Data files",
+      "fileCount": 4,
+      "lastAccessed": 1777909529179,
+      "keyFiles": [
+        "generate_regression_output.py",
+        "regression_input.csv",
+        "regression_output_256.csv"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "",
+      "accessCount": 2,
+      "lastAccessed": 1777909686858,
+      "type": "directory"
+    },
+    {
+      "path": "README.md",
+      "accessCount": 1,
+      "lastAccessed": 1777909677206,
+      "type": "file"
+    },
+    {
+      "path": "requirements.txt",
+      "accessCount": 1,
+      "lastAccessed": 1777909686333,
+      "type": "file"
+    },
+    {
+      "path": "model\\__init__.py",
+      "accessCount": 1,
+      "lastAccessed": 1777909694564,
+      "type": "file"
+    },
+    {
+      "path": "model\\kronos.py",
+      "accessCount": 1,
+      "lastAccessed": 1777909694996,
+      "type": "file"
+    },
+    {
+      "path": "model\\module.py",
+      "accessCount": 1,
+      "lastAccessed": 1777909705174,
+      "type": "file"
+    },
+    {
+      "path": "finetune\\config.py",
+      "accessCount": 1,
+      "lastAccessed": 1777909705588,
+      "type": "file"
+    },
+    {
+      "path": "webui\\README.md",
+      "accessCount": 1,
+      "lastAccessed": 1777909715788,
+      "type": "file"
+    },
+    {
+      "path": "tests\\test_kronos_regression.py",
+      "accessCount": 1,
+      "lastAccessed": 1777912174545,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
