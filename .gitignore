@@ -68,6 +68,9 @@ ENV/
 env.bak/
 venv.bak/
 
+# OMC (oh-my-claudecode) state
+.omc/
+
 # Temporary files
 *.tmp
 *.temp
